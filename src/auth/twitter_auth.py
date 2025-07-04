@@ -5,6 +5,7 @@ import json
 import time
 from typing import Optional, Dict, Any, Tuple
 
+from .auth_utils import authorize_twitter
 from config.settings import settings
 from src.utils.http_client import HTTPClient
 
@@ -83,17 +84,20 @@ class TwitterAuthManager:
         try:
             # 1. 检查Token有效性
             is_valid, reauth_url = await self.check_token_validity()
-            if is_valid:
-                logger.info("✅ Twitter Token已有效，无需认证")
-                return True
+            # if is_valid:
+            #     logger.info("✅ Twitter Token已有效，无需认证")
+            #     return True
 
-            if not reauth_url:
-                logger.error("未获取到Twitter认证URL")
-                return False
+            # if not reauth_url:
+            #     logger.error("未获取到Twitter认证URL")
+            #     return False
 
             # 2. 解析认证URL中的参数
             parsed_url = urllib.parse.urlparse(reauth_url)
             query_params = urllib.parse.parse_qs(parsed_url.query)
+
+            res = authorize_twitter(
+                '57d6911e27506c8ac77547d298ca8fafe6355a91', None, reauth_url)
 
             client_id = query_params.get('client_id', [None])[0]
             redirect_uri = query_params.get('redirect_uri', [None])[0]

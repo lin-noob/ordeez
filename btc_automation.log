@@ -829,3 +829,125 @@
 2025-07-04 11:22:44,826 - src.utils.http_client - INFO - ✅ 认证token已清除
 2025-07-04 11:22:44,827 - src.auth.btc_auth - INFO - 认证状态已清理
 2025-07-04 11:22:44,827 - src.main - INFO - 🎉 程序执行成功
+2025-07-04 16:27:04,302 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 16:27:04,303 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 16:27:04,303 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 16:27:04,303 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 16:27:04,303 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 16:27:04,304 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 16:27:04,317 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 16:27:04,317 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 16:27:04,317 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 16:27:06,202 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 16:27:16,088 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 16:27:19,698 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 16:27:31,041 - src.utils.crypto - INFO - ✅ 消息签名成功 (使用自定义实现)
+2025-07-04 16:27:31,041 - src.auth.btc_auth - INFO - ✅ 消息签名成功
+2025-07-04 16:27:31,042 - src.auth.btc_auth - INFO - 验证签名...
+2025-07-04 16:27:31,042 - src.auth.btc_auth - INFO - 验证参数: {'message': 'Please sign this message to confirm that you are the owner of the wallet. Signing is free of charge and does not entail any transactions.', 'signature': 'H5ENj7uBjx9dEzIPxnGOHDPWWBIV+n0pgnekkt7Jnqfv+EpwjzMElbCUvlBqIuqkO9t2PWE79GV3QseFTsPEJ9g=', 'walletType': 'unisat', 'referrer': '', 'paymentAddress': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'publicKey': '0256bd6b9aa1d5a2d662562c9c296341fc889ee426333ccb1d191b856a5354732b'}
+2025-07-04 16:27:31,042 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 1/3)
+2025-07-04 16:27:35,832 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 16:27:35,832 - src.auth.btc_auth - INFO - ✅ 签名验证成功
+2025-07-04 16:27:35,832 - src.utils.http_client - INFO - ✅ 认证token已设置
+2025-07-04 16:27:35,833 - src.auth.btc_auth - INFO - ✅ 认证状态已保存
+2025-07-04 16:27:35,833 - src.auth.btc_auth - INFO - 🎉 BTC认证成功！
+2025-07-04 16:27:35,833 - src.main - INFO - 步骤 2: Twitter认证...
+2025-07-04 16:27:35,834 - src.auth.twitter_auth - INFO - ✅ Twitter认证管理器初始化完成
+2025-07-04 16:27:35,834 - src.main - INFO - 开始自动Twitter认证流程...
+2025-07-04 16:27:35,834 - src.auth.twitter_auth - INFO - 检查Twitter Token有效性...
+2025-07-04 16:27:35,835 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/service/api/twitter/check/token/validity/tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan (尝试 1/3)
+2025-07-04 16:27:37,592 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 16:32:50,092 - src.auth.twitter_auth - INFO - ❌ Twitter Token无效，需要重新认证
+2025-07-04 16:43:56,627 - src.auth.twitter_auth - INFO - 已提取Twitter OAuth参数
+2025-07-04 16:43:56,628 - src.auth.twitter_auth - INFO - 正在自动获取Twitter授权码...
+2025-07-04 16:43:56,628 - src.auth.twitter_auth - INFO - 已获取授权码: UTFZZG1zWX...
+2025-07-04 16:43:56,629 - src.auth.twitter_auth - INFO - 验证Twitter OAuth回调...
+2025-07-04 16:43:56,630 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/service/api/twitter/verify (尝试 1/3)
+2025-07-04 16:43:59,363 - src.utils.http_client - INFO - 响应状态码: 500
+2025-07-04 16:43:59,363 - src.utils.http_client - WARNING - 请求失败: 500 - {"statusCode":500,"timestamp":"2025-07-04T08:43:57.887Z","path":"/service/api/twitter/verify?code=UTFZZG1zWXBzU3Z0VE1ibTIyM1N5d0w2VmNERzV3c0tycEJQQkJKYXRQS1V2OjE3NTE1OTEzNzA5OTA6MTowOmFjOjE&state=0jIA86Ivsx3aCp4-b~ddkViWa4c4.iUp","message":"Unknown exception"}
+2025-07-04 16:43:59,363 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/service/api/twitter/verify (尝试 2/3)
+2025-07-04 16:43:59,873 - src.utils.http_client - INFO - 响应状态码: 500
+2025-07-04 16:43:59,875 - src.utils.http_client - WARNING - 请求失败: 500 - {"statusCode":500,"timestamp":"2025-07-04T08:43:58.410Z","path":"/service/api/twitter/verify?code=UTFZZG1zWXBzU3Z0VE1ibTIyM1N5d0w2VmNERzV3c0tycEJQQkJKYXRQS1V2OjE3NTE1OTEzNzA5OTA6MTowOmFjOjE&state=0jIA86Ivsx3aCp4-b~ddkViWa4c4.iUp","message":"Unknown exception"}
+2025-07-04 16:43:59,875 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/service/api/twitter/verify (尝试 3/3)
+2025-07-04 16:44:00,416 - src.utils.http_client - INFO - 响应状态码: 500
+2025-07-04 16:44:00,417 - src.utils.http_client - WARNING - 请求失败: 500 - {"statusCode":500,"timestamp":"2025-07-04T08:43:58.944Z","path":"/service/api/twitter/verify?code=UTFZZG1zWXBzU3Z0VE1ibTIyM1N5d0w2VmNERzV3c0tycEJQQkJKYXRQS1V2OjE3NTE1OTEzNzA5OTA6MTowOmFjOjE&state=0jIA86Ivsx3aCp4-b~ddkViWa4c4.iUp","message":"Unknown exception"}
+2025-07-04 16:44:00,417 - src.utils.http_client - ERROR - 所有请求尝试都失败了
+2025-07-04 16:44:00,418 - src.auth.twitter_auth - ERROR - 验证OAuth回调失败: 无响应
+2025-07-04 16:44:00,420 - src.main - ERROR - ❌ Twitter认证失败
+2025-07-04 16:44:00,421 - src.main - WARNING - Twitter认证失败，但继续执行流程
+2025-07-04 16:44:00,421 - src.main - INFO - 步骤 3: 执行业务逻辑...
+2025-07-04 16:44:00,424 - src.main - INFO - BTC认证信息: {'is_authenticated': True, 'payment_address': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'public_key': '0256bd6b9aa1d5a2d662562c9c296341fc889ee426333ccb1d191b856a5354732b', 'wallet_type': 'unisat', 'has_token': True, 'private_key_format': 'wif'}
+2025-07-04 16:44:00,425 - src.main - INFO - Twitter认证信息: {'is_authenticated': False, 'btc_address': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'has_auth_url': True}
+2025-07-04 16:44:00,426 - src.main - INFO - ✅ 业务逻辑执行完成
+2025-07-04 16:44:00,427 - src.main - INFO - 🎉 BTC自动化完成！
+2025-07-04 16:44:00,428 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 16:44:00,429 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 16:44:00,429 - src.main - INFO - 🎉 程序执行成功
+2025-07-04 16:59:33,134 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 16:59:33,135 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 16:59:33,136 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 16:59:33,136 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 16:59:33,136 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 16:59:33,137 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 16:59:33,151 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 16:59:33,151 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 16:59:33,152 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 16:59:34,081 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 16:59:34,081 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 16:59:34,082 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 16:59:34,086 - src.utils.crypto - INFO - ✅ 消息签名成功 (使用自定义实现)
+2025-07-04 16:59:34,087 - src.auth.btc_auth - INFO - ✅ 消息签名成功
+2025-07-04 16:59:34,087 - src.auth.btc_auth - INFO - 验证签名...
+2025-07-04 16:59:34,087 - src.auth.btc_auth - INFO - 验证参数: {'message': 'Please sign this message to confirm that you are the owner of the wallet. Signing is free of charge and does not entail any transactions.', 'signature': 'H5ENj7uBjx9dEzIPxnGOHDPWWBIV+n0pgnekkt7Jnqfv+EpwjzMElbCUvlBqIuqkO9t2PWE79GV3QseFTsPEJ9g=', 'walletType': 'unisat', 'referrer': '', 'paymentAddress': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'publicKey': '0256bd6b9aa1d5a2d662562c9c296341fc889ee426333ccb1d191b856a5354732b'}
+2025-07-04 16:59:34,088 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 1/3)
+2025-07-04 16:59:36,156 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 16:59:36,157 - src.auth.btc_auth - INFO - ✅ 签名验证成功
+2025-07-04 16:59:36,157 - src.utils.http_client - INFO - ✅ 认证token已设置
+2025-07-04 16:59:36,157 - src.auth.btc_auth - INFO - ✅ 认证状态已保存
+2025-07-04 16:59:36,157 - src.auth.btc_auth - INFO - 🎉 BTC认证成功！
+2025-07-04 16:59:36,158 - src.main - INFO - 步骤 2: Twitter认证...
+2025-07-04 16:59:36,159 - src.auth.twitter_auth - INFO - ✅ Twitter认证管理器初始化完成
+2025-07-04 16:59:36,159 - src.main - INFO - 开始自动Twitter认证流程...
+2025-07-04 16:59:36,159 - src.auth.twitter_auth - INFO - 检查Twitter Token有效性...
+2025-07-04 16:59:36,160 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/service/api/twitter/check/token/validity/tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan (尝试 1/3)
+2025-07-04 16:59:37,318 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 16:59:44,573 - src.auth.twitter_auth - INFO - ✅ Twitter Token有效
+2025-07-04 16:59:44,573 - src.auth.twitter_auth - INFO - ✅ Twitter Token已有效，无需认证
+2025-07-04 16:59:53,748 - src.main - INFO - ✅ Twitter认证成功
+2025-07-04 16:59:58,351 - src.main - INFO - 步骤 3: 执行业务逻辑...
+2025-07-04 16:59:58,352 - src.main - INFO - BTC认证信息: {'is_authenticated': True, 'payment_address': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'public_key': '0256bd6b9aa1d5a2d662562c9c296341fc889ee426333ccb1d191b856a5354732b', 'wallet_type': 'unisat', 'has_token': True, 'private_key_format': 'wif'}
+2025-07-04 16:59:58,352 - src.main - INFO - Twitter认证信息: {'is_authenticated': True, 'btc_address': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'has_auth_url': False}
+2025-07-04 16:59:58,353 - src.main - INFO - ✅ 业务逻辑执行完成
+2025-07-04 16:59:58,353 - src.main - INFO - 🎉 BTC自动化完成！
+2025-07-04 16:59:58,354 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 16:59:58,354 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 16:59:58,355 - src.main - INFO - 🎉 程序执行成功
+2025-07-04 17:00:21,433 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 17:00:21,434 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 17:00:21,435 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 17:00:21,435 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 17:00:21,435 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 17:00:21,436 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 17:00:21,451 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 17:00:21,452 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 17:00:21,452 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 17:00:22,328 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 17:00:22,329 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 17:00:22,329 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 17:00:22,332 - src.utils.crypto - INFO - ✅ 消息签名成功 (使用自定义实现)
+2025-07-04 17:00:22,332 - src.auth.btc_auth - INFO - ✅ 消息签名成功
+2025-07-04 17:00:22,333 - src.auth.btc_auth - INFO - 验证签名...
+2025-07-04 17:00:22,333 - src.auth.btc_auth - INFO - 验证参数: {'message': 'Please sign this message to confirm that you are the owner of the wallet. Signing is free of charge and does not entail any transactions.', 'signature': 'H5ENj7uBjx9dEzIPxnGOHDPWWBIV+n0pgnekkt7Jnqfv+EpwjzMElbCUvlBqIuqkO9t2PWE79GV3QseFTsPEJ9g=', 'walletType': 'unisat', 'referrer': '', 'paymentAddress': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'publicKey': '0256bd6b9aa1d5a2d662562c9c296341fc889ee426333ccb1d191b856a5354732b'}
+2025-07-04 17:00:22,334 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 1/3)
+2025-07-04 17:00:24,408 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 17:00:24,409 - src.auth.btc_auth - INFO - ✅ 签名验证成功
+2025-07-04 17:00:24,409 - src.utils.http_client - INFO - ✅ 认证token已设置
+2025-07-04 17:00:24,410 - src.auth.btc_auth - INFO - ✅ 认证状态已保存
+2025-07-04 17:00:24,410 - src.auth.btc_auth - INFO - 🎉 BTC认证成功！
+2025-07-04 17:00:24,410 - src.main - INFO - 步骤 2: Twitter认证...
+2025-07-04 17:00:24,411 - src.auth.twitter_auth - INFO - ✅ Twitter认证管理器初始化完成
+2025-07-04 17:00:24,411 - src.main - INFO - 开始自动Twitter认证流程...
+2025-07-04 17:00:26,329 - src.auth.twitter_auth - INFO - 检查Twitter Token有效性...
+2025-07-04 17:00:26,329 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/service/api/twitter/check/token/validity/tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan (尝试 1/3)
+2025-07-04 17:00:27,400 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 17:00:27,401 - src.auth.twitter_auth - INFO - ✅ Twitter Token有效

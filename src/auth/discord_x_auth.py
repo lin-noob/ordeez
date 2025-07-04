@@ -15,6 +15,7 @@ from faker import Faker
 from loguru import logger
 from web3 import Web3
 from config import project_uuid, project_client_key, project_app_uuid, yescaptcha_client_key
+from .auth_utils import authorize_twitter
 
 fake = Faker(locale='en-US')
 
@@ -93,45 +94,6 @@ def authorize_discord(discord_token, proxies=None):
         location = response['location']
         code = re.findall('code=(.*?)&state=', location)[0]
         return code
-    except Exception as e:
-        logger.error(e)
-
-
-def authorize_twitter(twitter_token, proxies=None):
-    try:
-        session = requests.session()
-        session.proxies = proxies
-        response = session.get(url='https://twitter.com/home', cookies={
-            'auth_token': twitter_token,
-            'ct0': '960eb16898ea5b715b54e54a8f58c172'
-        })
-        ct0 = re.findall('ct0=(.*?);', dict(response.headers)['set-cookie'])[0]
-        cookies = {'ct0': ct0, 'auth_token': twitter_token}
-        params = {
-            'response_type': 'code',
-            'client_id': 'c1h0S1pfb010TEVBUnh2N3U3MU86MTpjaQ',
-            'redirect_uri': 'https://pioneer.particle.network/signup',
-            'scope': 'tweet.read users.read',
-            'state': f'twitter-{uuid.uuid4()}',
-            'code_challenge': 'challenge',
-            'code_challenge_method': 'plain',
-        }
-
-        headers = {'authority': 'twitter.com', 'accept': '*/*', 'accept-language': 'zh-CN,zh;q=0.9',
-                   'authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA',
-                   'cache-control': 'no-cache', 'content-type': 'application/json', 'origin': 'https://twitter.com',
-                   'pragma': 'no-cache', 'referer': 'https://twitter.com/puffer_finance/status/1751954283052810298',
-                   'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
-                   'x-csrf-token': ct0}
-
-        response = session.get('https://twitter.com/i/api/2/oauth2/authorize', params=params, cookies=cookies,
-                               headers=headers).json()
-        auth_code = response['auth_code']
-        data = {'approval': True, 'code': auth_code}
-        response = session.post('https://twitter.com/i/api/2/oauth2/authorize', json=data, cookies=cookies,
-                                headers=headers).json()
-        redirect_uri = response['redirect_uri']
-        return redirect_uri
     except Exception as e:
         logger.error(e)
 

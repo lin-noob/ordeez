@@ -3,6 +3,7 @@
 BTC测试网自动化项目启动文件
 """
 
+from src.main import main
 import sys
 import asyncio
 from pathlib import Path
@@ -18,9 +19,6 @@ if site_packages_path not in sys.path:
 
 # 验证路径是否添加成功
 # print("Updated sys.path:", sys.path)
-
-from src.main import main
-
 
 
 if __name__ == "__main__":
