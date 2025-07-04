@@ -1,0 +1,831 @@
+2025-07-04 09:35:49,918 - src.utils.crypto - INFO - ʹ��ǩ��ʵ��: python-bitcoinlib
+2025-07-04 09:35:49,972 - src.main - INFO - ���� 1: BTC��֤...
+2025-07-04 09:35:49,976 - src.auth.btc_auth - INFO - ��֤��ַƥ��...
+2025-07-04 09:35:49,995 - src.utils.crypto - ERROR - bitcoinlib��ַ��֤ʧ��: argument of type 'NoneType' is not iterable
+2025-07-04 09:35:49,995 - src.auth.btc_auth - ERROR - ��ַ��֤ʧ��
+2025-07-04 09:35:49,996 - src.main - ERROR - ��֤ʧ��
+2025-07-04 09:37:54,830 - src.utils.crypto - INFO - ʹ��ǩ��ʵ��: python-bitcoinlib
+2025-07-04 09:37:54,842 - src.main - INFO - ���� 1: BTC��֤...
+2025-07-04 09:37:54,846 - src.auth.btc_auth - INFO - ��֤��ַƥ��...
+2025-07-04 09:37:54,860 - src.utils.crypto - ERROR - bitcoinlib��ַ��֤ʧ��: argument of type 'NoneType' is not iterable
+2025-07-04 09:37:54,860 - src.auth.btc_auth - ERROR - ��ַ��֤ʧ��
+2025-07-04 09:37:54,860 - src.main - ERROR - ��֤ʧ��
+2025-07-04 09:38:08,151 - src.utils.crypto - INFO - ʹ��ǩ��ʵ��: python-bitcoinlib
+2025-07-04 09:38:08,273 - src.main - INFO - ���� 1: BTC��֤...
+2025-07-04 09:38:08,280 - src.auth.btc_auth - INFO - ��֤��ַƥ��...
+2025-07-04 09:40:07,345 - src.utils.crypto - INFO - ʹ��ǩ��ʵ��: python-bitcoinlib
+2025-07-04 09:40:07,357 - src.main - INFO - ���� 1: BTC��֤...
+2025-07-04 09:40:07,360 - src.auth.btc_auth - INFO - ��֤��ַƥ��...
+2025-07-04 09:40:07,374 - src.utils.crypto - ERROR - bitcoinlib��ַ��֤ʧ��: argument of type 'NoneType' is not iterable
+2025-07-04 09:40:07,375 - src.auth.btc_auth - ERROR - ��ַ��֤ʧ��
+2025-07-04 09:40:07,375 - src.main - ERROR - ��֤ʧ��
+2025-07-04 09:41:07,804 - src.utils.crypto - INFO - ʹ��ǩ��ʵ��: python-bitcoinlib
+2025-07-04 09:41:07,804 - src.main - ERROR - �����쳣: ȱ�ٱ����������: btc.private_key
+2025-07-04 09:44:40,807 - src.utils.crypto - INFO - ʹ��ǩ��ʵ��: python-bitcoinlib
+2025-07-04 09:44:40,821 - src.main - INFO - ���� 1: BTC��֤...
+2025-07-04 09:44:40,825 - src.auth.btc_auth - INFO - ��֤��ַƥ��...
+2025-07-04 09:44:40,847 - src.utils.crypto - ERROR - bitcoinlib��ַ��֤ʧ��: argument of type 'NoneType' is not iterable
+2025-07-04 09:44:40,847 - src.auth.btc_auth - ERROR - ��ַ��֤ʧ��
+2025-07-04 09:44:40,847 - src.main - ERROR - ��֤ʧ��
+2025-07-04 09:48:52,604 - src.utils.crypto - INFO - ʹ��ǩ��ʵ��: python-bitcoinlib
+2025-07-04 09:48:52,619 - src.main - INFO - ���� 1: BTC��֤...
+2025-07-04 09:48:52,624 - src.auth.btc_auth - INFO - ��֤��ַƥ��...
+2025-07-04 09:48:52,624 - src.utils.crypto - INFO - ��֤��ַ��˽Կ��ʽ: wif
+2025-07-04 09:48:52,640 - src.utils.crypto - ERROR - bitcoinlib��ַ��֤ʧ��: argument of type 'NoneType' is not iterable
+2025-07-04 09:48:52,642 - src.auth.btc_auth - ERROR - ��ַ��֤ʧ��
+2025-07-04 09:48:52,642 - src.main - ERROR - ��֤ʧ��
+2025-07-04 09:49:29,266 - src.utils.crypto - INFO - ʹ��ǩ��ʵ��: python-bitcoinlib
+2025-07-04 09:49:29,290 - src.main - INFO - ���� 1: BTC��֤...
+2025-07-04 09:49:29,299 - src.auth.btc_auth - INFO - ��֤��ַƥ��...
+2025-07-04 09:49:29,301 - src.utils.crypto - INFO - ��֤��ַ��˽Կ��ʽ: wif
+2025-07-04 09:49:58,359 - src.utils.crypto - ERROR - bitcoinlib��ַ��֤ʧ��: argument of type 'NoneType' is not iterable
+2025-07-04 09:50:00,290 - src.auth.btc_auth - ERROR - ��ַ��֤ʧ��
+2025-07-04 09:50:00,290 - src.main - ERROR - ��֤ʧ��
+2025-07-04 09:51:10,788 - src.main - INFO - ���� 1: BTC��֤...
+2025-07-04 09:51:10,792 - src.auth.btc_auth - INFO - ��֤��ַƥ��...
+2025-07-04 09:51:10,792 - src.auth.btc_auth - ERROR - ��ַ��֤�쳣: 'BTCCrypto' object has no attribute 'verify_address'
+2025-07-04 09:51:10,792 - src.auth.btc_auth - ERROR - ��ַ��֤ʧ��
+2025-07-04 09:51:10,793 - src.main - ERROR - ��֤ʧ��
+2025-07-04 09:54:44,799 - src.utils.crypto - INFO - ʹ��ǩ��ʵ��: python-bitcoinlib
+2025-07-04 09:54:44,806 - src.main - INFO - ���� 1: BTC��֤...
+2025-07-04 09:54:44,810 - src.auth.btc_auth - INFO - ��֤��ַƥ��...
+2025-07-04 09:54:44,810 - src.utils.crypto - INFO - ��֤��ַ��˽Կ��ʽ: wif
+2025-07-04 09:54:44,822 - src.utils.crypto - ERROR - bitcoinlib��ַ��֤ʧ��: argument of type 'NoneType' is not iterable
+2025-07-04 09:54:44,822 - src.auth.btc_auth - ERROR - ��ַ��֤ʧ��
+2025-07-04 09:54:44,822 - src.main - ERROR - ��֤ʧ��
+2025-07-04 10:24:21,724 - src.main - ERROR - �����쳣: name 'BTCAuthenticatedService' is not defined
+2025-07-04 10:25:23,229 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:25:23,230 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:25:23,230 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:25:23,230 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:25:23,230 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:25:23,230 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:25:23,231 - src.utils.crypto - ERROR - 不支持的私钥格式: unknown
+2025-07-04 10:25:23,231 - src.auth.btc_auth - WARNING - 地址验证失败，但继续执行认证流程
+2025-07-04 10:25:23,231 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:25:23,231 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:25:24,483 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:25:24,483 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:25:24,483 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:25:24,483 - src.utils.crypto - ERROR - 不支持的私钥格式: unknown
+2025-07-04 10:25:24,483 - src.auth.btc_auth - ERROR - 消息签名失败
+2025-07-04 10:25:24,483 - src.main - ERROR - 认证失败
+2025-07-04 10:25:24,483 - src.main - ERROR - 程序异常: 'BTCAuthManager' object has no attribute 'logout'
+2025-07-04 10:25:54,916 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:25:54,916 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:25:54,916 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:25:54,916 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:25:54,917 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:25:54,917 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:25:54,917 - src.utils.crypto - ERROR - 不支持的私钥格式: unknown
+2025-07-04 10:25:54,917 - src.auth.btc_auth - WARNING - 地址验证失败，但继续执行认证流程
+2025-07-04 10:25:54,917 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:25:54,917 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:25:56,041 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:25:56,041 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:25:56,041 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:25:56,041 - src.utils.crypto - ERROR - 不支持的私钥格式: unknown
+2025-07-04 10:25:56,041 - src.auth.btc_auth - ERROR - 消息签名失败
+2025-07-04 10:25:56,041 - src.main - ERROR - 认证失败
+2025-07-04 10:25:56,041 - src.main - ERROR - 程序异常: 'HTTPClient' object has no attribute 'clear_auth_token'
+2025-07-04 10:26:24,311 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:26:24,311 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:26:24,311 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:26:24,311 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:26:24,311 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:26:24,311 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:26:24,311 - src.utils.crypto - ERROR - 不支持的私钥格式: wif
+2025-07-04 10:26:24,311 - src.auth.btc_auth - WARNING - 地址验证失败，但继续执行认证流程
+2025-07-04 10:26:24,311 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:26:24,312 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:26:25,459 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:26:25,460 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:26:25,460 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:26:25,460 - src.utils.crypto - ERROR - 不支持的私钥格式: wif
+2025-07-04 10:26:25,460 - src.auth.btc_auth - ERROR - 消息签名失败
+2025-07-04 10:26:25,460 - src.main - ERROR - 认证失败
+2025-07-04 10:26:25,460 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 10:26:25,460 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 10:26:25,460 - src.main - ERROR - ❌ 程序执行失败
+2025-07-04 10:26:44,466 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:26:44,467 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:26:44,467 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:26:44,467 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:26:44,467 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:26:44,467 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:26:44,467 - src.utils.crypto - ERROR - 不支持的私钥格式: unknown
+2025-07-04 10:26:44,468 - src.auth.btc_auth - WARNING - 地址验证失败，但继续执行认证流程
+2025-07-04 10:26:44,468 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:26:44,468 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:26:45,548 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:26:45,548 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:26:45,548 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:26:45,548 - src.utils.crypto - ERROR - 不支持的私钥格式: unknown
+2025-07-04 10:26:45,548 - src.auth.btc_auth - ERROR - 消息签名失败
+2025-07-04 10:26:45,548 - src.main - ERROR - 认证失败
+2025-07-04 10:26:45,548 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 10:26:45,548 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 10:26:45,548 - src.main - ERROR - ❌ 程序执行失败
+2025-07-04 10:27:05,988 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:27:05,988 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:27:05,988 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:27:05,988 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:27:05,988 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:27:05,989 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:27:05,989 - src.utils.crypto - ERROR - 不支持的私钥格式: unknown
+2025-07-04 10:27:05,989 - src.auth.btc_auth - WARNING - 地址验证失败，但继续执行认证流程
+2025-07-04 10:27:05,989 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:27:05,989 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:27:07,035 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:27:07,035 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:27:07,035 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:27:07,035 - src.utils.crypto - ERROR - 不支持的私钥格式: unknown
+2025-07-04 10:27:07,035 - src.auth.btc_auth - ERROR - 消息签名失败
+2025-07-04 10:27:07,035 - src.main - ERROR - 认证失败
+2025-07-04 10:27:07,035 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 10:27:07,035 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 10:27:07,035 - src.main - ERROR - ❌ 程序执行失败
+2025-07-04 10:27:41,870 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:27:41,870 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:27:41,870 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:27:41,870 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:27:41,871 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:27:41,871 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:27:41,871 - src.utils.crypto - ERROR - 不支持的私钥格式: unknown
+2025-07-04 10:27:41,871 - src.auth.btc_auth - WARNING - 地址验证失败，但继续执行认证流程
+2025-07-04 10:27:41,871 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:27:41,871 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:27:42,995 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:27:42,995 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:27:42,995 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:27:42,995 - src.utils.crypto - ERROR - 不支持的私钥格式: unknown
+2025-07-04 10:27:42,995 - src.auth.btc_auth - ERROR - 消息签名失败
+2025-07-04 10:27:42,995 - src.main - ERROR - 认证失败
+2025-07-04 10:27:42,995 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 10:27:42,996 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 10:27:42,996 - src.main - ERROR - ❌ 程序执行失败
+2025-07-04 10:28:04,853 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:28:04,853 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:28:04,853 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:28:04,853 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:28:04,853 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:28:04,853 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:28:04,853 - src.utils.crypto - ERROR - 不支持的私钥格式: unknown
+2025-07-04 10:28:04,853 - src.auth.btc_auth - WARNING - 地址验证失败，但继续执行认证流程
+2025-07-04 10:28:04,854 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:28:04,854 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:28:06,761 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:28:06,761 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:28:06,761 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:28:06,761 - src.utils.crypto - ERROR - 不支持的私钥格式: unknown
+2025-07-04 10:28:06,761 - src.auth.btc_auth - ERROR - 消息签名失败
+2025-07-04 10:28:06,761 - src.main - ERROR - 认证失败
+2025-07-04 10:28:06,761 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 10:28:06,762 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 10:28:06,762 - src.main - ERROR - ❌ 程序执行失败
+2025-07-04 10:28:25,627 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:28:25,628 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:28:25,628 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:28:25,628 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:28:25,628 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:28:25,628 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:28:25,628 - src.utils.crypto - ERROR - WIF to hex - Unexpected decoded length: 34
+2025-07-04 10:28:25,628 - src.utils.crypto - ERROR - 不支持的私钥格式: wif
+2025-07-04 10:28:25,628 - src.auth.btc_auth - WARNING - 地址验证失败，但继续执行认证流程
+2025-07-04 10:28:25,628 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:28:25,628 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:28:26,709 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:28:26,709 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:28:26,709 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:28:26,710 - src.utils.crypto - ERROR - WIF to hex - Unexpected decoded length: 34
+2025-07-04 10:28:26,710 - src.utils.crypto - ERROR - 不支持的私钥格式: wif
+2025-07-04 10:28:26,710 - src.auth.btc_auth - ERROR - 消息签名失败
+2025-07-04 10:28:26,710 - src.main - ERROR - 认证失败
+2025-07-04 10:28:26,710 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 10:28:26,710 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 10:28:26,710 - src.main - ERROR - ❌ 程序执行失败
+2025-07-04 10:29:13,653 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:29:13,653 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:29:13,653 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:29:13,653 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:29:13,654 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:29:13,654 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:29:13,663 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 10:29:13,663 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:29:13,663 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:29:14,727 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:29:14,727 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:29:14,727 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:29:14,728 - src.auth.btc_auth - INFO - ✅ 消息签名成功
+2025-07-04 10:29:14,728 - src.auth.btc_auth - INFO - 验证签名...
+2025-07-04 10:29:14,728 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 1/3)
+2025-07-04 10:29:15,059 - src.utils.http_client - INFO - 响应状态码: 404
+2025-07-04 10:29:15,059 - src.utils.http_client - WARNING - 请求失败: 404 - <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/auth/verify</pre>
+</body>
+</html>
+
+2025-07-04 10:29:15,059 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 2/3)
+2025-07-04 10:29:15,407 - src.utils.http_client - INFO - 响应状态码: 404
+2025-07-04 10:29:15,407 - src.utils.http_client - WARNING - 请求失败: 404 - <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/auth/verify</pre>
+</body>
+</html>
+
+2025-07-04 10:29:15,407 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 3/3)
+2025-07-04 10:29:15,743 - src.utils.http_client - INFO - 响应状态码: 404
+2025-07-04 10:29:15,743 - src.utils.http_client - WARNING - 请求失败: 404 - <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/auth/verify</pre>
+</body>
+</html>
+
+2025-07-04 10:29:15,743 - src.utils.http_client - ERROR - 所有请求尝试都失败了
+2025-07-04 10:29:15,743 - src.auth.btc_auth - ERROR - 签名验证失败: None
+2025-07-04 10:29:15,743 - src.auth.btc_auth - ERROR - 签名验证失败
+2025-07-04 10:29:15,744 - src.main - ERROR - 认证失败
+2025-07-04 10:29:15,744 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 10:29:15,744 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 10:29:15,744 - src.main - ERROR - ❌ 程序执行失败
+2025-07-04 10:29:38,011 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:29:38,011 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:29:38,011 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:29:38,011 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:29:38,011 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:29:38,012 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:29:38,019 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 10:29:38,019 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:29:38,019 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:29:39,098 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:29:39,098 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:29:39,098 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:29:39,099 - src.auth.btc_auth - INFO - ✅ 消息签名成功
+2025-07-04 10:29:39,099 - src.auth.btc_auth - INFO - 验证签名...
+2025-07-04 10:29:39,099 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 1/3)
+2025-07-04 10:29:39,430 - src.utils.http_client - INFO - 响应状态码: 404
+2025-07-04 10:29:39,430 - src.utils.http_client - WARNING - 请求失败: 404 - <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/auth/verify</pre>
+</body>
+</html>
+
+2025-07-04 10:29:39,430 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 2/3)
+2025-07-04 10:29:40,015 - src.utils.http_client - INFO - 响应状态码: 404
+2025-07-04 10:29:40,015 - src.utils.http_client - WARNING - 请求失败: 404 - <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/auth/verify</pre>
+</body>
+</html>
+
+2025-07-04 10:29:40,015 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 3/3)
+2025-07-04 10:29:40,355 - src.utils.http_client - INFO - 响应状态码: 404
+2025-07-04 10:29:40,355 - src.utils.http_client - WARNING - 请求失败: 404 - <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/auth/verify</pre>
+</body>
+</html>
+
+2025-07-04 10:29:40,355 - src.utils.http_client - ERROR - 所有请求尝试都失败了
+2025-07-04 10:29:40,356 - src.auth.btc_auth - ERROR - 签名验证失败: None
+2025-07-04 10:29:40,356 - src.auth.btc_auth - ERROR - 签名验证失败
+2025-07-04 10:29:40,356 - src.main - ERROR - 认证失败
+2025-07-04 10:29:40,356 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 10:29:40,356 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 10:29:40,356 - src.main - ERROR - ❌ 程序执行失败
+2025-07-04 10:30:08,912 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:30:08,912 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:30:08,912 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:30:08,912 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:30:08,912 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:30:08,912 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:30:08,927 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 10:30:08,927 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:30:08,927 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:30:10,238 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:30:10,238 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:30:10,238 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:30:10,241 - src.auth.btc_auth - INFO - ✅ 消息签名成功
+2025-07-04 10:30:10,241 - src.auth.btc_auth - INFO - 验证签名...
+2025-07-04 10:30:10,242 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 1/3)
+2025-07-04 10:30:10,591 - src.utils.http_client - INFO - 响应状态码: 404
+2025-07-04 10:30:10,591 - src.utils.http_client - WARNING - 请求失败: 404 - <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/auth/verify</pre>
+</body>
+</html>
+
+2025-07-04 10:30:10,591 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 2/3)
+2025-07-04 10:30:11,557 - src.utils.http_client - INFO - 响应状态码: 404
+2025-07-04 10:30:11,557 - src.utils.http_client - WARNING - 请求失败: 404 - <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/auth/verify</pre>
+</body>
+</html>
+
+2025-07-04 10:30:11,557 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 3/3)
+2025-07-04 10:30:11,907 - src.utils.http_client - INFO - 响应状态码: 404
+2025-07-04 10:30:11,907 - src.utils.http_client - WARNING - 请求失败: 404 - <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/auth/verify</pre>
+</body>
+</html>
+
+2025-07-04 10:30:11,907 - src.utils.http_client - ERROR - 所有请求尝试都失败了
+2025-07-04 10:30:11,907 - src.auth.btc_auth - ERROR - 签名验证失败: None
+2025-07-04 10:30:11,907 - src.auth.btc_auth - ERROR - 签名验证失败
+2025-07-04 10:30:11,907 - src.main - ERROR - 认证失败
+2025-07-04 10:30:11,907 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 10:30:11,907 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 10:30:11,907 - src.main - ERROR - ❌ 程序执行失败
+2025-07-04 10:30:43,620 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:30:43,621 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:30:43,621 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:30:43,621 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:30:43,622 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:30:43,622 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:30:43,630 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 10:30:43,630 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:30:43,630 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:30:44,748 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:30:44,748 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:30:44,748 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:30:44,750 - src.auth.btc_auth - INFO - ✅ 消息签名成功
+2025-07-04 10:30:44,750 - src.auth.btc_auth - INFO - 验证签名...
+2025-07-04 10:30:44,750 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 1/3)
+2025-07-04 10:30:45,097 - src.utils.http_client - INFO - 响应状态码: 404
+2025-07-04 10:30:45,097 - src.utils.http_client - WARNING - 请求失败: 404 - <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/auth/verify</pre>
+</body>
+</html>
+
+2025-07-04 10:30:45,098 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 2/3)
+2025-07-04 10:30:45,448 - src.utils.http_client - INFO - 响应状态码: 404
+2025-07-04 10:30:45,448 - src.utils.http_client - WARNING - 请求失败: 404 - <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/auth/verify</pre>
+</body>
+</html>
+
+2025-07-04 10:30:45,449 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 3/3)
+2025-07-04 10:30:46,097 - src.utils.http_client - INFO - 响应状态码: 404
+2025-07-04 10:30:46,097 - src.utils.http_client - WARNING - 请求失败: 404 - <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/auth/verify</pre>
+</body>
+</html>
+
+2025-07-04 10:30:46,097 - src.utils.http_client - ERROR - 所有请求尝试都失败了
+2025-07-04 10:30:46,098 - src.auth.btc_auth - ERROR - 签名验证失败: None
+2025-07-04 10:30:46,098 - src.auth.btc_auth - ERROR - 签名验证失败
+2025-07-04 10:30:46,098 - src.main - ERROR - 认证失败
+2025-07-04 10:30:46,098 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 10:30:46,098 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 10:30:46,098 - src.main - ERROR - ❌ 程序执行失败
+2025-07-04 10:32:03,892 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:32:03,892 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:32:03,892 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:32:03,893 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:32:03,893 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:32:03,893 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:32:03,901 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 10:32:03,901 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:32:03,901 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:32:05,086 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:32:05,086 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:32:05,087 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:32:05,088 - src.auth.btc_auth - INFO - ✅ 消息签名成功
+2025-07-04 10:32:05,089 - src.auth.btc_auth - INFO - 验证签名...
+2025-07-04 10:32:05,089 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 1/3)
+2025-07-04 10:32:05,446 - src.utils.http_client - INFO - 响应状态码: 400
+2025-07-04 10:32:05,447 - src.utils.http_client - WARNING - 请求失败: 400 - {"status":false,"message":"Invalid Argument: Error: i must be 0, 1, 2, or 3"}
+2025-07-04 10:32:05,447 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 2/3)
+2025-07-04 10:32:06,098 - src.utils.http_client - INFO - 响应状态码: 400
+2025-07-04 10:32:06,098 - src.utils.http_client - WARNING - 请求失败: 400 - {"status":false,"message":"Invalid Argument: Error: i must be 0, 1, 2, or 3"}
+2025-07-04 10:32:06,098 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 3/3)
+2025-07-04 10:32:06,750 - src.utils.http_client - INFO - 响应状态码: 400
+2025-07-04 10:32:06,751 - src.utils.http_client - WARNING - 请求失败: 400 - {"status":false,"message":"Invalid Argument: Error: i must be 0, 1, 2, or 3"}
+2025-07-04 10:32:06,751 - src.utils.http_client - ERROR - 所有请求尝试都失败了
+2025-07-04 10:32:06,751 - src.auth.btc_auth - ERROR - 签名验证失败: None
+2025-07-04 10:32:06,751 - src.auth.btc_auth - ERROR - 签名验证失败
+2025-07-04 10:32:06,751 - src.main - ERROR - 认证失败
+2025-07-04 10:32:06,752 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 10:32:06,752 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 10:32:06,752 - src.main - ERROR - ❌ 程序执行失败
+2025-07-04 10:33:20,739 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:33:20,741 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:33:20,741 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:33:20,741 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:33:20,741 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:33:20,741 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:33:20,754 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 10:33:20,754 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:33:20,755 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:33:21,853 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:33:21,854 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:33:21,855 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:33:21,857 - src.auth.btc_auth - INFO - ✅ 消息签名成功
+2025-07-04 10:33:21,858 - src.auth.btc_auth - INFO - 验证签名...
+2025-07-04 10:34:58,861 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 1/3)
+2025-07-04 10:35:00,016 - src.utils.http_client - INFO - 响应状态码: 400
+2025-07-04 10:35:00,016 - src.utils.http_client - WARNING - 请求失败: 400 - {"status":false,"message":"Invalid Argument: Error: i must be 0, 1, 2, or 3"}
+2025-07-04 10:35:00,017 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 2/3)
+2025-07-04 10:35:00,367 - src.utils.http_client - INFO - 响应状态码: 400
+2025-07-04 10:35:00,368 - src.utils.http_client - WARNING - 请求失败: 400 - {"status":false,"message":"Invalid Argument: Error: i must be 0, 1, 2, or 3"}
+2025-07-04 10:35:00,368 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 3/3)
+2025-07-04 10:35:00,718 - src.utils.http_client - INFO - 响应状态码: 400
+2025-07-04 10:35:00,718 - src.utils.http_client - WARNING - 请求失败: 400 - {"status":false,"message":"Invalid Argument: Error: i must be 0, 1, 2, or 3"}
+2025-07-04 10:35:00,719 - src.utils.http_client - ERROR - 所有请求尝试都失败了
+2025-07-04 10:35:19,302 - src.auth.btc_auth - ERROR - 签名验证失败: None
+2025-07-04 10:35:19,303 - src.auth.btc_auth - ERROR - 签名验证失败
+2025-07-04 10:35:19,304 - src.main - ERROR - 认证失败
+2025-07-04 10:35:19,304 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 10:35:19,304 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 10:35:19,305 - src.main - ERROR - ❌ 程序执行失败
+2025-07-04 10:37:19,070 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:37:19,070 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:37:19,071 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:37:19,071 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:37:19,071 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:37:19,071 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:37:19,079 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 10:37:19,079 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:37:19,079 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:37:20,189 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:37:20,189 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:37:20,190 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:37:20,191 - src.auth.btc_auth - INFO - ✅ 消息签名成功
+2025-07-04 10:37:20,191 - src.auth.btc_auth - INFO - 验证签名...
+2025-07-04 10:37:20,191 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 1/3)
+2025-07-04 10:37:20,552 - src.utils.http_client - INFO - 响应状态码: 400
+2025-07-04 10:37:20,552 - src.utils.http_client - WARNING - 请求失败: 400 - {"status":false,"message":"Invalid Argument: Error: i must be 0, 1, 2, or 3"}
+2025-07-04 10:37:20,552 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 2/3)
+2025-07-04 10:37:20,917 - src.utils.http_client - INFO - 响应状态码: 400
+2025-07-04 10:37:20,917 - src.utils.http_client - WARNING - 请求失败: 400 - {"status":false,"message":"Invalid Argument: Error: i must be 0, 1, 2, or 3"}
+2025-07-04 10:37:20,917 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 3/3)
+2025-07-04 10:37:21,265 - src.utils.http_client - INFO - 响应状态码: 400
+2025-07-04 10:37:21,265 - src.utils.http_client - WARNING - 请求失败: 400 - {"status":false,"message":"Invalid Argument: Error: i must be 0, 1, 2, or 3"}
+2025-07-04 10:37:21,265 - src.utils.http_client - ERROR - 所有请求尝试都失败了
+2025-07-04 10:37:21,265 - src.auth.btc_auth - ERROR - 签名验证失败: None
+2025-07-04 10:37:21,265 - src.auth.btc_auth - ERROR - 签名验证失败
+2025-07-04 10:37:21,265 - src.main - ERROR - 认证失败
+2025-07-04 10:37:21,265 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 10:37:21,266 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 10:37:21,266 - src.main - ERROR - ❌ 程序执行失败
+2025-07-04 10:40:17,381 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:40:17,381 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:40:17,381 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:40:17,381 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:40:17,382 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:40:17,382 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:40:17,390 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 10:40:17,390 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:40:17,390 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:40:18,539 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:40:18,539 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:40:18,539 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:40:18,541 - src.auth.btc_auth - INFO - ✅ 消息签名成功
+2025-07-04 10:40:18,541 - src.auth.btc_auth - INFO - 验证签名...
+2025-07-04 10:40:18,542 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 1/3)
+2025-07-04 10:40:18,929 - src.utils.http_client - INFO - 响应状态码: 400
+2025-07-04 10:40:18,929 - src.utils.http_client - WARNING - 请求失败: 400 - {"status":false,"message":"Invalid Argument: Error: i must be 0, 1, 2, or 3"}
+2025-07-04 10:40:18,930 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 2/3)
+2025-07-04 10:40:19,284 - src.utils.http_client - INFO - 响应状态码: 400
+2025-07-04 10:40:19,284 - src.utils.http_client - WARNING - 请求失败: 400 - {"status":false,"message":"Invalid Argument: Error: i must be 0, 1, 2, or 3"}
+2025-07-04 10:40:19,285 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 3/3)
+2025-07-04 10:40:19,658 - src.utils.http_client - INFO - 响应状态码: 400
+2025-07-04 10:40:19,659 - src.utils.http_client - WARNING - 请求失败: 400 - {"status":false,"message":"Invalid Argument: Error: i must be 0, 1, 2, or 3"}
+2025-07-04 10:40:19,659 - src.utils.http_client - ERROR - 所有请求尝试都失败了
+2025-07-04 10:40:19,659 - src.auth.btc_auth - ERROR - 签名验证失败: None
+2025-07-04 10:40:19,659 - src.auth.btc_auth - ERROR - 签名验证失败
+2025-07-04 10:40:19,659 - src.main - ERROR - 认证失败
+2025-07-04 10:40:19,659 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 10:40:19,660 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 10:40:19,660 - src.main - ERROR - ❌ 程序执行失败
+2025-07-04 10:46:13,788 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:46:13,789 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:46:13,789 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:46:13,789 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:46:13,789 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:46:13,789 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:46:13,798 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 10:46:13,798 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:46:13,798 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:46:14,880 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:46:14,881 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:46:14,881 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:46:14,882 - src.auth.btc_auth - INFO - ✅ 消息签名成功
+2025-07-04 10:46:14,882 - src.auth.btc_auth - INFO - 验证签名...
+2025-07-04 10:46:14,882 - src.auth.btc_auth - INFO - 验证参数: {'message': 'Please sign this message to confirm that you are the owner of the wallet. Signing is free of charge and does not entail any transactions.', 'signature': 'eV33UIlHLfCKlqLUfJ8/aLS1UrE6d5mNd+MNCMJxriyVwk2ouDXFQE3LUwXwgjgmq3fJ+57q531h9rdr55JOQA==', 'walletType': 'unisat', 'referrer': '', 'paymentAddress': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'publicKey': '0256bd6b9aa1d5a2d662562c9c296341fc889ee426333ccb1d191b856a5354732b'}
+2025-07-04 10:46:14,883 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 1/3)
+2025-07-04 10:46:15,223 - src.utils.http_client - INFO - 响应状态码: 400
+2025-07-04 10:46:15,224 - src.utils.http_client - WARNING - 请求失败: 400 - {"status":false,"message":"Invalid Argument: Error: i must be 0, 1, 2, or 3"}
+2025-07-04 10:46:15,224 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 2/3)
+2025-07-04 10:46:15,556 - src.utils.http_client - INFO - 响应状态码: 400
+2025-07-04 10:46:15,556 - src.utils.http_client - WARNING - 请求失败: 400 - {"status":false,"message":"Invalid Argument: Error: i must be 0, 1, 2, or 3"}
+2025-07-04 10:46:15,556 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 3/3)
+2025-07-04 10:46:15,893 - src.utils.http_client - INFO - 响应状态码: 400
+2025-07-04 10:46:15,893 - src.utils.http_client - WARNING - 请求失败: 400 - {"status":false,"message":"Invalid Argument: Error: i must be 0, 1, 2, or 3"}
+2025-07-04 10:46:15,894 - src.utils.http_client - ERROR - 所有请求尝试都失败了
+2025-07-04 10:46:15,894 - src.auth.btc_auth - ERROR - 签名验证失败: None
+2025-07-04 10:46:15,894 - src.auth.btc_auth - ERROR - 签名验证失败
+2025-07-04 10:46:15,894 - src.main - ERROR - 认证失败
+2025-07-04 10:46:15,894 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 10:46:15,894 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 10:46:15,895 - src.main - ERROR - ❌ 程序执行失败
+2025-07-04 10:48:42,288 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:48:42,289 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:48:42,289 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:48:42,289 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:48:42,289 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:48:42,290 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:48:42,306 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 10:48:42,306 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:48:42,306 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:48:43,393 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:48:43,394 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:48:43,394 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:48:43,396 - src.auth.btc_auth - INFO - ✅ 消息签名成功
+2025-07-04 10:48:43,396 - src.auth.btc_auth - INFO - 验证签名...
+2025-07-04 10:48:43,397 - src.auth.btc_auth - INFO - 验证参数: {'message': 'Please sign this message to confirm that you are the owner of the wallet. Signing is free of charge and does not entail any transactions.', 'signature': 'IJENj7uBjx9dEzIPxnGOHDPWWBIV+n0pgnekkt7JnqfvB7WPcMz7ak9rQa+V3RVbwt84n4VzVDrEfQrZPgxyGWk=', 'walletType': 'unisat', 'referrer': '', 'paymentAddress': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'publicKey': '0256bd6b9aa1d5a2d662562c9c296341fc889ee426333ccb1d191b856a5354732b'}
+2025-07-04 10:48:43,398 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 1/3)
+2025-07-04 10:48:45,560 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:48:45,561 - src.auth.btc_auth - INFO - ✅ 签名验证成功
+2025-07-04 10:48:45,561 - src.utils.http_client - INFO - ✅ 认证token已设置
+2025-07-04 10:48:45,561 - src.auth.btc_auth - INFO - ✅ 认证状态已保存
+2025-07-04 10:48:45,562 - src.auth.btc_auth - INFO - 🎉 BTC认证成功！
+2025-07-04 10:48:45,562 - src.main - INFO - 步骤 2: 执行业务逻辑...
+2025-07-04 10:48:45,562 - src.main - INFO - 认证信息: {'is_authenticated': True, 'payment_address': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'public_key': '0256bd6b9aa1d5a2d662562c9c296341fc889ee426333ccb1d191b856a5354732b', 'wallet_type': 'unisat', 'has_token': True, 'private_key_format': 'wif'}
+2025-07-04 10:48:45,562 - src.main - INFO - ✅ 业务逻辑执行完成
+2025-07-04 10:48:45,562 - src.main - INFO - 🎉 BTC自动化完成！
+2025-07-04 10:48:45,563 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 10:48:45,563 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 10:48:45,563 - src.main - INFO - 🎉 程序执行成功
+2025-07-04 10:51:02,886 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:51:02,888 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:51:02,888 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:51:02,889 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:51:02,889 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:51:02,890 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:51:02,917 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 10:51:02,918 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:51:02,918 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:51:04,039 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:51:11,139 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:51:26,764 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:55:40,361 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 10:55:40,362 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 10:55:40,362 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 10:55:40,363 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 10:55:40,363 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 10:55:40,364 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 10:55:40,385 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 10:55:40,385 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 10:55:40,386 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 10:55:41,554 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 10:55:45,300 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 10:56:01,411 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 10:56:08,075 - src.utils.crypto - ERROR - 消息签名失败: 'Key' object has no attribute 'sign_message'
+2025-07-04 11:01:05,894 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 11:01:05,896 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 11:01:05,897 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 11:01:05,897 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 11:01:05,897 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 11:01:05,898 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 11:01:05,924 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 11:01:05,925 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 11:01:05,927 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 11:01:07,008 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 11:01:09,913 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 11:01:14,599 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 11:01:37,916 - src.utils.crypto - INFO - ✅ 消息签名成功 (使用自定义实现)
+2025-07-04 11:01:43,600 - src.auth.btc_auth - INFO - ✅ 消息签名成功
+2025-07-04 11:01:47,301 - src.auth.btc_auth - INFO - 验证签名...
+2025-07-04 11:01:56,983 - src.auth.btc_auth - INFO - 验证参数: {'message': 'Please sign this message to confirm that you are the owner of the wallet. Signing is free of charge and does not entail any transactions.', 'signature': 'H5ENj7uBjx9dEzIPxnGOHDPWWBIV+n0pgnekkt7Jnqfv+EpwjzMElbCUvlBqIuqkO9t2PWE79GV3QseFTsPEJ9g=', 'walletType': 'unisat', 'referrer': '', 'paymentAddress': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'publicKey': '0256bd6b9aa1d5a2d662562c9c296341fc889ee426333ccb1d191b856a5354732b'}
+2025-07-04 11:01:58,550 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 1/3)
+2025-07-04 11:02:00,988 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 11:02:06,441 - src.auth.btc_auth - INFO - ✅ 签名验证成功
+2025-07-04 11:02:08,471 - src.utils.http_client - INFO - ✅ 认证token已设置
+2025-07-04 11:02:08,472 - src.auth.btc_auth - INFO - ✅ 认证状态已保存
+2025-07-04 11:02:09,169 - src.auth.btc_auth - INFO - 🎉 BTC认证成功！
+2025-07-04 11:02:09,769 - src.main - INFO - 步骤 2: 执行业务逻辑...
+2025-07-04 11:02:09,770 - src.main - INFO - 认证信息: {'is_authenticated': True, 'payment_address': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'public_key': '0256bd6b9aa1d5a2d662562c9c296341fc889ee426333ccb1d191b856a5354732b', 'wallet_type': 'unisat', 'has_token': True, 'private_key_format': 'wif'}
+2025-07-04 11:02:09,770 - src.main - INFO - ✅ 业务逻辑执行完成
+2025-07-04 11:02:09,771 - src.main - INFO - 🎉 BTC自动化完成！
+2025-07-04 11:02:09,771 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 11:02:09,772 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 11:02:09,772 - src.main - INFO - 🎉 程序执行成功
+2025-07-04 11:13:19,642 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 11:13:19,643 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 11:13:19,643 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 11:13:19,644 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 11:13:19,644 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 11:13:19,644 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 11:13:19,661 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 11:13:19,661 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 11:13:19,661 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 11:13:20,827 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 11:13:20,827 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 11:13:20,827 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 11:13:20,829 - src.utils.crypto - INFO - ✅ 消息签名成功 (使用自定义实现)
+2025-07-04 11:13:20,829 - src.auth.btc_auth - INFO - ✅ 消息签名成功
+2025-07-04 11:13:20,830 - src.auth.btc_auth - INFO - 验证签名...
+2025-07-04 11:13:20,830 - src.auth.btc_auth - INFO - 验证参数: {'message': 'Please sign this message to confirm that you are the owner of the wallet. Signing is free of charge and does not entail any transactions.', 'signature': 'H5ENj7uBjx9dEzIPxnGOHDPWWBIV+n0pgnekkt7Jnqfv+EpwjzMElbCUvlBqIuqkO9t2PWE79GV3QseFTsPEJ9g=', 'walletType': 'unisat', 'referrer': '', 'paymentAddress': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'publicKey': '0256bd6b9aa1d5a2d662562c9c296341fc889ee426333ccb1d191b856a5354732b'}
+2025-07-04 11:13:20,830 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 1/3)
+2025-07-04 11:13:23,206 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 11:13:23,206 - src.auth.btc_auth - INFO - ✅ 签名验证成功
+2025-07-04 11:13:23,206 - src.utils.http_client - INFO - ✅ 认证token已设置
+2025-07-04 11:13:23,206 - src.auth.btc_auth - INFO - ✅ 认证状态已保存
+2025-07-04 11:13:23,207 - src.auth.btc_auth - INFO - 🎉 BTC认证成功！
+2025-07-04 11:13:23,207 - src.main - INFO - 步骤 2: Twitter认证...
+2025-07-04 11:13:23,207 - src.auth.twitter_auth - INFO - ✅ Twitter认证管理器初始化完成
+2025-07-04 11:13:23,207 - src.auth.twitter_auth - INFO - 检查Twitter Token有效性...
+2025-07-04 11:13:23,207 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/service/api/twitter/check/token/validity/tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan (尝试 1/3)
+2025-07-04 11:13:24,330 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 11:13:24,331 - src.auth.twitter_auth - INFO - ❌ Twitter Token无效，需要重新认证
+2025-07-04 11:13:24,332 - src.main - INFO - 请在浏览器中完成Twitter认证...
+2025-07-04 11:13:24,332 - src.auth.twitter_auth - INFO - 打开Twitter认证URL: https://x.com/i/oauth2/authorize?response_type=code&client_id=LVIyLXo2MHdzU2RlNG5Cd0JmWjU6MTpjaQ&redirect_uri=https%3A%2F%2Fordeez.io%2Fredirect%2Ftwitter&state=.GV.D7bykM7PiaXYNpfF-VUszpxwhCaq&code_challenge=Z63dFhGuVMoJT6ncx_uZsTmZcTimA3mBEenFm_JQnLg&code_challenge_method=s256&scope=tweet.read%20users.read%20follows.read%20like.read%20offline.access&provider=twitter
+2025-07-04 11:13:24,631 - src.main - INFO - 请在完成Twitter认证后，输入回调URL中的code和state参数
+2025-07-04 11:14:52,560 - src.main - ERROR - Twitter认证流程异常: 
+2025-07-04 11:14:52,561 - src.main - WARNING - Twitter认证失败，但继续执行流程
+2025-07-04 11:14:52,561 - src.main - INFO - 步骤 3: 执行业务逻辑...
+2025-07-04 11:14:52,561 - src.main - INFO - BTC认证信息: {'is_authenticated': True, 'payment_address': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'public_key': '0256bd6b9aa1d5a2d662562c9c296341fc889ee426333ccb1d191b856a5354732b', 'wallet_type': 'unisat', 'has_token': True, 'private_key_format': 'wif'}
+2025-07-04 11:14:52,562 - src.main - INFO - Twitter认证信息: {'is_authenticated': False, 'btc_address': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'has_auth_url': True}
+2025-07-04 11:14:52,562 - src.main - INFO - ✅ 业务逻辑执行完成
+2025-07-04 11:14:52,562 - src.main - INFO - 🎉 BTC自动化完成！
+2025-07-04 11:14:52,562 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 11:14:52,562 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 11:14:52,562 - src.main - INFO - 🎉 程序执行成功
+2025-07-04 11:14:54,939 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 11:14:54,939 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 11:14:54,939 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 11:14:54,940 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 11:14:54,940 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 11:14:54,940 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 11:14:54,947 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 11:14:54,947 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 11:14:54,948 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 11:14:56,134 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 11:14:56,134 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 11:14:56,134 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 11:14:56,137 - src.utils.crypto - INFO - ✅ 消息签名成功 (使用自定义实现)
+2025-07-04 11:14:56,137 - src.auth.btc_auth - INFO - ✅ 消息签名成功
+2025-07-04 11:14:56,137 - src.auth.btc_auth - INFO - 验证签名...
+2025-07-04 11:14:56,137 - src.auth.btc_auth - INFO - 验证参数: {'message': 'Please sign this message to confirm that you are the owner of the wallet. Signing is free of charge and does not entail any transactions.', 'signature': 'H5ENj7uBjx9dEzIPxnGOHDPWWBIV+n0pgnekkt7Jnqfv+EpwjzMElbCUvlBqIuqkO9t2PWE79GV3QseFTsPEJ9g=', 'walletType': 'unisat', 'referrer': '', 'paymentAddress': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'publicKey': '0256bd6b9aa1d5a2d662562c9c296341fc889ee426333ccb1d191b856a5354732b'}
+2025-07-04 11:14:56,137 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 1/3)
+2025-07-04 11:14:58,324 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 11:14:58,324 - src.auth.btc_auth - INFO - ✅ 签名验证成功
+2025-07-04 11:14:58,324 - src.utils.http_client - INFO - ✅ 认证token已设置
+2025-07-04 11:14:58,324 - src.auth.btc_auth - INFO - ✅ 认证状态已保存
+2025-07-04 11:14:58,324 - src.auth.btc_auth - INFO - 🎉 BTC认证成功！
+2025-07-04 11:14:58,325 - src.main - INFO - 步骤 2: Twitter认证...
+2025-07-04 11:14:58,325 - src.auth.twitter_auth - INFO - ✅ Twitter认证管理器初始化完成
+2025-07-04 11:14:58,325 - src.auth.twitter_auth - INFO - 检查Twitter Token有效性...
+2025-07-04 11:14:58,325 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/service/api/twitter/check/token/validity/tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan (尝试 1/3)
+2025-07-04 11:14:59,436 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 11:14:59,436 - src.auth.twitter_auth - INFO - ✅ Twitter Token有效
+2025-07-04 11:14:59,436 - src.main - INFO - ✅ Twitter Token有效，无需重新认证
+2025-07-04 11:14:59,436 - src.main - INFO - 步骤 3: 执行业务逻辑...
+2025-07-04 11:14:59,437 - src.main - INFO - BTC认证信息: {'is_authenticated': True, 'payment_address': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'public_key': '0256bd6b9aa1d5a2d662562c9c296341fc889ee426333ccb1d191b856a5354732b', 'wallet_type': 'unisat', 'has_token': True, 'private_key_format': 'wif'}
+2025-07-04 11:14:59,437 - src.main - INFO - Twitter认证信息: {'is_authenticated': True, 'btc_address': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'has_auth_url': False}
+2025-07-04 11:14:59,437 - src.main - INFO - ✅ 业务逻辑执行完成
+2025-07-04 11:14:59,438 - src.main - INFO - 🎉 BTC自动化完成！
+2025-07-04 11:14:59,438 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 11:14:59,438 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 11:14:59,438 - src.main - INFO - 🎉 程序执行成功
+2025-07-04 11:21:12,362 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 11:21:12,362 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 11:21:12,363 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 11:21:12,363 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 11:21:12,363 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 11:21:12,363 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 11:21:12,376 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 11:21:12,376 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 11:21:12,376 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 11:21:13,454 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 11:21:13,455 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 11:21:13,455 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 11:21:13,458 - src.utils.crypto - INFO - ✅ 消息签名成功 (使用自定义实现)
+2025-07-04 11:21:13,459 - src.auth.btc_auth - INFO - ✅ 消息签名成功
+2025-07-04 11:21:13,459 - src.auth.btc_auth - INFO - 验证签名...
+2025-07-04 11:21:13,460 - src.auth.btc_auth - INFO - 验证参数: {'message': 'Please sign this message to confirm that you are the owner of the wallet. Signing is free of charge and does not entail any transactions.', 'signature': 'H5ENj7uBjx9dEzIPxnGOHDPWWBIV+n0pgnekkt7Jnqfv+EpwjzMElbCUvlBqIuqkO9t2PWE79GV3QseFTsPEJ9g=', 'walletType': 'unisat', 'referrer': '', 'paymentAddress': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'publicKey': '0256bd6b9aa1d5a2d662562c9c296341fc889ee426333ccb1d191b856a5354732b'}
+2025-07-04 11:21:13,460 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 1/3)
+2025-07-04 11:21:15,687 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 11:21:15,687 - src.auth.btc_auth - INFO - ✅ 签名验证成功
+2025-07-04 11:21:15,688 - src.utils.http_client - INFO - ✅ 认证token已设置
+2025-07-04 11:21:15,688 - src.auth.btc_auth - INFO - ✅ 认证状态已保存
+2025-07-04 11:21:15,688 - src.auth.btc_auth - INFO - 🎉 BTC认证成功！
+2025-07-04 11:21:15,688 - src.main - INFO - 步骤 2: Twitter认证...
+2025-07-04 11:21:15,688 - src.auth.twitter_auth - INFO - ✅ Twitter认证管理器初始化完成
+2025-07-04 11:21:15,688 - src.auth.twitter_auth - INFO - 检查Twitter Token有效性...
+2025-07-04 11:21:15,688 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/service/api/twitter/check/token/validity/tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan (尝试 1/3)
+2025-07-04 11:21:16,858 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 11:21:16,858 - src.auth.twitter_auth - INFO - ✅ Twitter Token有效
+2025-07-04 11:21:16,859 - src.main - INFO - ✅ Twitter Token有效，无需重新认证
+2025-07-04 11:21:16,859 - src.main - INFO - 步骤 3: 执行业务逻辑...
+2025-07-04 11:21:16,859 - src.main - INFO - BTC认证信息: {'is_authenticated': True, 'payment_address': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'public_key': '0256bd6b9aa1d5a2d662562c9c296341fc889ee426333ccb1d191b856a5354732b', 'wallet_type': 'unisat', 'has_token': True, 'private_key_format': 'wif'}
+2025-07-04 11:21:16,859 - src.main - INFO - Twitter认证信息: {'is_authenticated': True, 'btc_address': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'has_auth_url': False}
+2025-07-04 11:21:16,860 - src.main - INFO - ✅ 业务逻辑执行完成
+2025-07-04 11:21:16,860 - src.main - INFO - 🎉 BTC自动化完成！
+2025-07-04 11:21:16,860 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 11:21:16,860 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 11:21:16,860 - src.main - INFO - 🎉 程序执行成功
+2025-07-04 11:21:46,789 - src.utils.crypto - INFO - ✅ BTCCrypto初始化，网络: testnet
+2025-07-04 11:21:46,790 - src.auth.btc_auth - INFO - ✅ 配置验证通过
+2025-07-04 11:21:46,790 - src.main - INFO - 🚀 开始BTC自动化流程...
+2025-07-04 11:21:46,790 - src.main - INFO - 步骤 1: BTC认证...
+2025-07-04 11:21:46,790 - src.auth.btc_auth - INFO - 🚀 开始BTC认证流程...
+2025-07-04 11:21:46,791 - src.auth.btc_auth - INFO - 验证地址匹配...
+2025-07-04 11:21:46,803 - src.utils.crypto - WARNING - Bech32地址验证简化版，可能不完全准确。
+2025-07-04 11:21:46,804 - src.auth.btc_auth - INFO - 获取签名消息...
+2025-07-04 11:21:46,804 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/api/auth/message (尝试 1/3)
+2025-07-04 11:21:47,940 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 11:21:50,282 - src.auth.btc_auth - INFO - ✅ 签名消息获取成功
+2025-07-04 11:21:54,171 - src.auth.btc_auth - INFO - 签名消息...
+2025-07-04 11:22:01,811 - src.utils.crypto - INFO - ✅ 消息签名成功 (使用自定义实现)
+2025-07-04 11:22:03,281 - src.auth.btc_auth - INFO - ✅ 消息签名成功
+2025-07-04 11:22:08,642 - src.auth.btc_auth - INFO - 验证签名...
+2025-07-04 11:22:16,527 - src.auth.btc_auth - INFO - 验证参数: {'message': 'Please sign this message to confirm that you are the owner of the wallet. Signing is free of charge and does not entail any transactions.', 'signature': 'H5ENj7uBjx9dEzIPxnGOHDPWWBIV+n0pgnekkt7Jnqfv+EpwjzMElbCUvlBqIuqkO9t2PWE79GV3QseFTsPEJ9g=', 'walletType': 'unisat', 'referrer': '', 'paymentAddress': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'publicKey': '0256bd6b9aa1d5a2d662562c9c296341fc889ee426333ccb1d191b856a5354732b'}
+2025-07-04 11:22:16,529 - src.utils.http_client - INFO - 发送 POST 请求到 https://production.ordeez.projects.mamont.dev/api/auth/verify (尝试 1/3)
+2025-07-04 11:22:18,711 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 11:22:18,711 - src.auth.btc_auth - INFO - ✅ 签名验证成功
+2025-07-04 11:22:26,000 - src.utils.http_client - INFO - ✅ 认证token已设置
+2025-07-04 11:22:26,001 - src.auth.btc_auth - INFO - ✅ 认证状态已保存
+2025-07-04 11:22:27,824 - src.auth.btc_auth - INFO - 🎉 BTC认证成功！
+2025-07-04 11:22:28,398 - src.main - INFO - 步骤 2: Twitter认证...
+2025-07-04 11:22:28,399 - src.auth.twitter_auth - INFO - ✅ Twitter认证管理器初始化完成
+2025-07-04 11:22:28,399 - src.auth.twitter_auth - INFO - 检查Twitter Token有效性...
+2025-07-04 11:22:28,400 - src.utils.http_client - INFO - 发送 GET 请求到 https://production.ordeez.projects.mamont.dev/service/api/twitter/check/token/validity/tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan (尝试 1/3)
+2025-07-04 11:22:29,513 - src.utils.http_client - INFO - 响应状态码: 200
+2025-07-04 11:22:29,513 - src.auth.twitter_auth - INFO - ✅ Twitter Token有效
+2025-07-04 11:22:39,299 - src.main - INFO - ✅ Twitter Token有效，无需重新认证
+2025-07-04 11:22:44,824 - src.main - INFO - 步骤 3: 执行业务逻辑...
+2025-07-04 11:22:44,825 - src.main - INFO - BTC认证信息: {'is_authenticated': True, 'payment_address': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'public_key': '0256bd6b9aa1d5a2d662562c9c296341fc889ee426333ccb1d191b856a5354732b', 'wallet_type': 'unisat', 'has_token': True, 'private_key_format': 'wif'}
+2025-07-04 11:22:44,826 - src.main - INFO - Twitter认证信息: {'is_authenticated': True, 'btc_address': 'tb1ptx3rva5y4fw6gmqnj7y7d67qu7vq8l4xkf9mjvnk4xmqfjytycvqjm8uan', 'has_auth_url': False}
+2025-07-04 11:22:44,826 - src.main - INFO - ✅ 业务逻辑执行完成
+2025-07-04 11:22:44,826 - src.main - INFO - 🎉 BTC自动化完成！
+2025-07-04 11:22:44,826 - src.utils.http_client - INFO - ✅ 认证token已清除
+2025-07-04 11:22:44,827 - src.auth.btc_auth - INFO - 认证状态已清理
+2025-07-04 11:22:44,827 - src.main - INFO - 🎉 程序执行成功
